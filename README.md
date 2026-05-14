@@ -1,8 +1,8 @@
 # 🏛️ VoxDAO — On-Chain Governance Protocol
 
 > Give your community a voice — onchain.
-> Create DAOs, vote on proposals, manage 
-> treasury. All transparent. All on Base.
+> Create DAOs, vote on proposals, manage treasury.
+> All transparent. All permanent. All on Base.
 
 ![Base](https://img.shields.io/badge/Built%20on-Base-0052FF?style=for-the-badge)
 ![Solidity](https://img.shields.io/badge/Solidity-0.8.20-363636?style=for-the-badge)
@@ -15,24 +15,23 @@
 Communities have no simple way to make
 collective decisions onchain.
 
-VoxDAO fixes this — create a DAO, add 
-members, vote on proposals, and execute 
-decisions fully onchain on Base.
-
-No middleman. No off-chain voting.
-Just pure onchain governance.
+VoxDAO fixes this — create a DAO, add members,
+submit proposals, vote, and execute decisions
+fully onchain on Base. No middleman.
+No off-chain voting. Pure onchain governance.
 
 ---
 
 ## ✨ Features
 
-- 🏛️ **Create DAOs** — Name, description, quorum
-- 👥 **Member System** — Roles + voting power
+- 🏛️ **Create DAOs** — Name, description, quorum rules
+- 👥 **Member System** — Join DAOs, roles, voting power
 - 📋 **Proposals** — Submit governance proposals
-- 🗳️ **Voting** — Yes / No / Abstain
-- 💰 **Treasury** — Collective ETH management
+- 🗳️ **Voting** — Yes / No / Abstain with voting power
+- 💰 **Treasury** — Deposit and spend ETH collectively
 - ⚡ **Execute** — Auto execute passed proposals
-- 📡 **100% Onchain** — Permanent + transparent
+- 🌙 **Dark / Light Mode** — User preference toggle
+- 📡 **100% Onchain** — Everything permanent on Base
 
 ---
 
@@ -45,6 +44,7 @@ Just pure onchain governance.
 | **Verified** | ✅ BaseScan |
 | **Compiler** | Solidity 0.8.20 |
 | **License** | MIT |
+| **Live App** | [vox-dao-protocol.netlify.app](https://vox-dao-protocol.netlify.app) |
 
 🔗 [View on BaseScan](https://basescan.org/address/0xff7677d8bb35c55da4d81831c84594f25656040c)
 
@@ -53,10 +53,10 @@ Just pure onchain governance.
 ## 🛠️ Core Functions
 
 ```solidity
-createDAO(name, desc, quorum, power)
-joinDAO(daoId, power)
-createProposal(daoId, title, desc, days)
-vote(proposalId, choice)
+createDAO(name, description, quorum, votingPower)
+joinDAO(daoId, votingPower)
+createProposal(daoId, title, description, days)
+vote(proposalId, choice) // 1=Yes 2=No 3=Abstain
 execute(proposalId)
 deposit(daoId)
 spend(daoId, to, amount)
@@ -66,12 +66,14 @@ spend(daoId, to, amount)
 
 ## 🗺️ Roadmap
 
-- [x] Smart contract deployed on Base
-- [x] Contract verified on BaseScan
-- [ ] Frontend UI — in progress
-- [ ] DAO directory
-- [ ] Member management
-- [ ] Voting interface
+- [x] Smart contract deployed & verified on Base
+- [x] Frontend UI with dark/light mode
+- [x] DAO creation and management
+- [x] Proposal voting system
+- [x] Treasury management
+- [ ] Token-based voting
+- [ ] Multi-sig treasury
+- [ ] DAO analytics dashboard
 
 ---
 
