@@ -81,6 +81,21 @@ spend(daoId, to, amount)
 
 Built by [@Huzaifa_0101](https://twitter.com/Huzaifa_0101)
 Active on Base since Feb 2024 | 1900+ onchain transactions
+## How to Use
+
+1. Connect your wallet on Base Mainnet
+2. Navigate to **Proposals** tab
+3. Create a new proposal with title and description
+4. Community members can vote Yes or No
+5. Results are recorded permanently onchain
+
+## Contract
+
+| Contract | Address |
+|----------|---------|
+| VoxDAO | `0xff7677d8bb35c55da4d81831c84594f25656040c` |
+
+🔗 [View on BaseScan](https://basescan.org/address/0xff7677d8bb35c55da4d81831c84594f25656040c)
 
 ---
 
