@@ -97,6 +97,12 @@ Active on Base since Feb 2024 | 1900+ onchain transactions
 
 🔗 [View on BaseScan](https://basescan.org/address/0xff7677d8bb35c55da4d81831c84594f25656040c)
 
+## Governance Model
+
+- One wallet one vote
+- Proposals created onchain
+- Voting period: open until closed
+- Results permanent on Base
 ---
 
 ## 📄 License
