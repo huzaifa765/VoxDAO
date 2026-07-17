@@ -103,6 +103,12 @@ Active on Base since Feb 2024 | 1900+ onchain transactions
 - Proposals created onchain
 - Voting period: open until closed
 - Results permanent on Base
+- ## Why VoxDAO
+
+- Decentralized governance on Base
+- No central authority
+- Transparent voting history
+- Community owned decisions
 ---
 
 ## 📄 License
