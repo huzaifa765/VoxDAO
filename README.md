@@ -109,6 +109,13 @@ Active on Base since Feb 2024 | 1900+ onchain transactions
 - No central authority
 - Transparent voting history
 - Community owned decisions
+- ## Proposal Types
+
+- Community decisions
+- Protocol upgrades
+- Treasury allocation
+- Partnership approvals
+- Any onchain governance matter
 ---
 
 ## 📄 License
